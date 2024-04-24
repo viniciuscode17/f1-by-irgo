@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Max</title>
+    <link rel="shortcut icon" href="f1 pro site.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .content {
+            overflow: hidden;
+            display: flex; /* Usando flexbox para o posicionamento */
+            align-items: center; /* Alinhar verticalmente */
+        }
+        
+        .text {
+            flex: 1; /* Ocupar o espaço disponível */
+            margin-right: 100px; /* Espaçamento entre o texto e a imagem */
+            width: 50%;
+            height: 50%;
+        }
+        
+        .image >img {
+         /* Certificar-se de que a imagem não exceda a largura do container */
+            border-radius: 100em;
+        }
+        .image >img :hover{  
+            transition: 0.25s ;
+            width: 200em;
+        }
+        
+        h1,h3{font-family: 'Formula 1';
+            color: rgb(255, 255, 255);
+            text-align: center;
+            padding: 10px;
+            background-color: rgb(17, 0, 255);
+            border-radius: 10px;
+            width: 100
+
+        }
+        main{
+            background-color: rgb(255, 255, 255);
+            width: 75em;
+            padding: 10px;
+            margin: auto;
+            border-radius: 10px;
+            box-shadow: 10px 10px 100px rgb(16, 0, 247);
+        }
+        a{
+    text-decoration: none;
+    color:rgb(0, 47, 255);
+    text-transform: none;
+    transition: 0.25s ease;
+}
+    ul:hover a:hover {
+    color: rgb(0, 25, 247);
+    box-shadow: 0px 0 0 currentColor;
+    }
+    </style>
+</head>
+<body>
+    <main>
+    <h1>Formula 1</h1>
+    <div id="menu">
+    <ul>
+        <li type="none"><a href="index.html">Menu Principal</a></li type="none">
+            <li type="none"><a href="Pontuação.html">Pontos</a></li type="none">
+            <li type="none"><a href="Pilotos.html">Pilotos</a></li type="none">
+            <li type="none"><a href="#">Calendário</a></li type="none">
+    </ul>
+</div>
+    <div class="content">
+        <div class="text">
+            <h3>Max Verstappen</h3>
+            <p>(Hasselt,[3] 30 de setembro de 1997) é um automobilista neerlandês. Ele é piloto de Fórmula 1 desde 2015, tendo feito sua estreia pela equipe Toro Rosso. Foi duas vezes campeão da Fórmula 1 em 2021 e 2022,[4][5] e terminou em terceiro lugar em 2019 e 2020 com a Red Bull Racing, equipe pela qual corre desde 2016.[6][7]
+
+                É o piloto mais jovem a liderar uma volta durante um Grande Prêmio de Fórmula 1, o mais jovem vencedor de um Grande Prêmio (18 anos 7 meses e 15 dias no Grande Prêmio da Espanha de 2016),[8] o mais jovem a alcançar o recorde de volta mais rápida no Grande Prêmio do Brasil de 2016, o piloto mais jovem a alcançar o recorde de voltas em uma sessão, este foi o terceiro treino livre no Autódromo Hermanos Rodríguez (México) em 28 de outubro de 2017 e o piloto mais jovem a competir na história desta categoria, como ele fez sua estreia com 17 anos e 166 dias no Grande Prêmio da Austrália de 2015 para a equipe Scuderia Toro Rosso,[9] assim como o primeiro piloto de nacionalidade neerlandesa a subir para o lugar mais alto do pódio da F-1.[8]
+                
+                No Grande Prêmio da Áustria de 2021, após 128 grandes prêmios, 50 pódios e 15 vitórias, Max Verstappen alcançou seu primeiro Grand Chelem aos 23 anos, 9 meses e 4 dias, sendo assim o piloto mais jovem a conquistá-lo na história da categoria mais alta do automobilismo.[10] Ele foi o primeiro vencedor na história da F-1 de uma corrida de sprint, qualificando-se para o Grande Prêmio da Grã-Bretanha de 2021.[11]
+                
+                Naquele ano, ele foi proclamado campeão de Fórmula 1 após vencer no Grande Prêmio de Abu Dhabi, derrotando o atual campeão Lewis Hamilton na última volta, com quem havia alcançado a última corrida empatada em pontos. Desta forma, ele também se tornou o primeiro primeiro piloto neerlandês a obter o título.[12] No ano seguinte, em 2022, Verstappen conquistou o título de forma dominante.[13]</p>
+        </div>
+        <div class="image">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/Max_Verstappen_2017_Malaysia_3.jpg/230px-Max_Verstappen_2017_Malaysia_3.jpg" alt="Max Verstappen" id="fotosDosPilotos">
+        </div>
+    </div>
+    </main>
+</body>
+</html>

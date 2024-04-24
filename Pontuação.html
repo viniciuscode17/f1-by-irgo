@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="Pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pontuação</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="f1 pro site.ico" type="image/x-icon">
+    <style>
+        table{
+            width: 55vw;
+            border-collapse: collapse;
+        }
+        #tabela{
+            overflow-x: auto;
+        }
+        caption{
+            font-size: 1.3em;
+            font-weight: bolder;
+            padding: 8px;
+        }
+
+        th, td{
+            border: 1px solid black;
+            padding: 8px;
+        }
+        th{
+            text-align: left;
+            text-shadow: 0px 0px 10px black;
+        }
+        h1{
+            font-family: 'Formula 1 a';
+        }
+        main{
+            background-color: rgb(255, 255, 255);
+            width: 75em;
+            padding: 10px;
+            margin: auto;
+            border-radius: 10px;
+            box-shadow: 10px 10px 100px rgb(0, 0, 255);
+        }
+        #table{
+            text-shadow: 0px 0px 0px rgba(255, 255, 255, 0);
+        }
+        #RedBull{
+            background-color: #1100FF;
+            color: white;
+        }
+        #Ferrari{
+            background-color: #FF0000;
+            color: white;
+        }
+        #McLaren{
+            background-color: #F39302;
+            color: white;
+        }
+        #Mercedes{
+            background-color: #06CFB4;
+            color: white;
+        }
+        #Aston{
+            background-color: #005850;
+            color: white;
+        }
+        #RB{
+            background-color: #26354B;
+            color: white;
+        }
+        #Haas{
+            background-color: #171717;
+            color: white;
+        }
+        #Williams{
+            background-color: #081A80;
+            color: white;
+        }
+        #Alpine{
+            background-color: #0498DD;
+            color: white;
+        }
+        #SAUBER{
+            background-color: #01CA2E;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <main>
+    <h1>Formula 1</h1>
+    <div id="menu">
+    <ul>
+        <li type="none"><a href="index.html">Menu Principal</a></li type="none">
+            <li type="none"><a href="Pontuação.html">Pontos</a></li type="none">
+            <li type="none"><a href="Pilotos.html">Pilotos</a></li type="none">
+            <li type="none"><a href="calendario.html">Calendário</a></li type="none">
+    </ul>
+</div>
+
+    <div id="tabela">
+        <table>
+            <caption>
+                Pontuação dos Pilotos
+            </caption>
+            <thead>
+                <tr>
+                    <th id="table">Equipes</th>
+                    <th id="table">Pilotos</th>
+                    <th id="table">Pontos</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th rowspan="2" id="RedBull">RedBull</th>
+                    <td>Verstappen</td>
+                    <td>110</td>
+                </tr>
+                <tr>
+                    <td>Perez</td>
+                    <td>85</td>
+                </tr>
+                <tr>
+                    <th rowspan="3" id="Ferrari">Ferrari</th>
+                    <td>Leclerc</td>
+                    <td>76</td>
+                </tr>
+                <tr>
+                    <td>Sainz</td>
+                    <td>69</td>
+                </tr>
+                <tr>
+                    <td>Bearman</td>
+                    <td>6</td>
+                </tr>
+                <tr>
+                    <th rowspan="2" id="McLaren">McLaren</th>
+                    <td>Norris</td>
+                    <td>58</td>
+                </tr>
+                <tr>
+                    <td>Piastri</td>
+                    <td>38</td>
+                </tr>
+                <tr>
+                    <th rowspan="2" id="Mercedes">Mercedes</th>
+                    <td>Russel</td>
+                    <td>33</td>
+                </tr>
+                <tr>
+                    <td>Hamilton</td>
+                    <td>19</td>
+                </tr>
+                <tr>
+                    <th rowspan="2" id="Aston">Aston Martin</th>
+                    <td>Alonso</td>
+                    <td>31</td>
+                </tr>
+                <tr>
+                    <td>Stroll</td>
+                    <td>9</td>
+                </tr>
+                <tr>
+                    <th rowspan="2" id="RB">RB Honda</th>
+                    <td>Tsunoda</td>
+                    <td>7</td>
+                </tr>
+                <tr>
+                    <td>Ricciardo</td>
+                    <td>0</td>
+                </tr>
+                <tr>
+                    <th rowspan="2" id="Haas">Haas</th>
+                    <td>Hulkenberg</td>
+                    <td>4</td>
+                </tr>
+                <tr>
+                    <td>Magnussen</td>
+                    <td>1</td>
+                </tr>
+                <tr>
+                    <th rowspan="2" id="Williams">Williams</th>
+                    <td>Albon</td>
+                    <td>0</td>
+                </tr>
+                <tr>
+                    <td>Sargent</td>
+                    <td>0</td>
+                </tr>
+                <tr>
+                    <th rowspan="2" id="Alpine">Alpine</th>
+                    <td>Ocon</td>
+                    <td>0</td>
+                </tr>
+                <tr>
+                    <td>Gasly</td>
+                    <td>0</td>
+                </tr>
+                <tr>
+                    <th rowspan="2" id="SAUBER">KICK SAUBER </th>
+                    <td>Zhou</td>
+                    <td>0</td>
+                </tr>
+                <tr>
+                    <td>Bottas</td>
+                    <td>0</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    </main>
+</body>
+
+</html>
+</body>
+</html>
