@@ -8,6 +8,12 @@
     src: url(Formula1-Bold.otf);
 }
 
+@media(max-width: 768px){
+
+}
+
+
+
 body {
     margin: 5px;
     justify-content: center;
